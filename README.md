@@ -34,13 +34,38 @@ This app lets users ask questions, select different OpenAI models, and get AI-po
    git clone https://github.com/your-username/QA-CHATBOT.git
    cd QA-CHATBOT
 
-2. python -m venv .venv
-    source .venv/bin/activate   # On macOS/Linux
-    .venv\Scripts\activate      # On Windows
+## Setup
 
+### 1. Create and Activate a Virtual Environment
 
+```bash
+python -m venv .venv
+```
+
+**macOS/Linux**
+
+```bash
+source .venv/bin/activate
+```
+
+**Windows**
+
+```powershell
+.venv\Scripts\activate
+```
+
+### 2. Install Dependencies
+
+```bash
 pip install -r requirements.txt
+```
 
+### 3. Configure Environment Variables
+
+```env
+OPENAI_API_KEY=your_openai_api_key_here
+LANGCHAIN_API_KEY=your_langchain_api_key_here
+```
 
 OPENAI_API_KEY=your_openai_api_key_here
 LANGCHAIN_API_KEY=your_langchain_api_key_here
