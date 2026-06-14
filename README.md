@@ -27,7 +27,6 @@ This app lets users ask questions, select different OpenAI models, and get AI-po
   - `python-dotenv`
 
 ---
-
 ## 🔧 Installation
 
 ### 1. Clone the Repository
@@ -73,3 +72,13 @@ Create a `.env` file in the project root and add:
 OPENAI_API_KEY=your_openai_api_key_here
 LANGCHAIN_API_KEY=your_langchain_api_key_here
 ```
+
+### 5. Run the Application
+
+Start the Streamlit app:
+
+```bash
+streamlit run app.py
+```
+
+Once the application starts, open the local URL displayed in your terminal (typically `http://localhost:8501`) in your browser.
