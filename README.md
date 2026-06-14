@@ -30,7 +30,7 @@ This app lets users ask questions, select different OpenAI models, and get AI-po
 
 ## 🔧 Installation
 1. Clone this repository:
-   ```bash
+```bash
    git clone https://github.com/your-username/QA-CHATBOT.git
    cd QA-CHATBOT
 ## Setup
